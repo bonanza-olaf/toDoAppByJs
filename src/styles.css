@@ -1,0 +1,75 @@
+body {
+  font-family: "Amatic SC", cursive;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+input {
+  font-family: "Amatic SC", cursive;
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #ab47bc;
+  border-radius: 10px;
+  border: none;
+  padding: 6px 16px;
+  outline: none;
+}
+
+button {
+  font-family: "Amatic SC", cursive;
+  font-family: "PT Sans Narrow", sans-serif;
+  background-color: #ab47bc;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  padding: 6px 10px;
+  margin: 0 4px;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #ab47bc;
+  cursor: pointer;
+}
+
+.input-area {
+  background-color: #ffb300;
+  width: 400px;
+  height: 30px;
+  padding: 8px;
+  margin: 6px;
+  border-radius: 5px;
+}
+
+.incomplete-area {
+  background-color: #ffecb3;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 6px;
+  border-radius: 5px;
+}
+
+.complete-area {
+  background-color: #ffecb3;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 6px;
+  border-radius: 5px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 2px;
+  font-weight: bold;
+  color: #666;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+}
+
+.list-row p {
+  margin: 8px 8px;
+  margin-right: 8px;
+}
